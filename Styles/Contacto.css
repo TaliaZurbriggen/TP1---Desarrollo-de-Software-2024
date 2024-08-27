@@ -6,25 +6,110 @@ body {
     color: #333;
 }
 
+nav {
+    padding: 10px; 
+}
+
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    background-color: #333;
-    display: flex;
-    justify-content: center;
+    display: flex; 
+    justify-content: center; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin: 0 15px; 
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    padding: 10px 20px;
-    display: inline-block;
+nav a {
+    color: #000; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 20px; 
+    display: block; 
+    padding: 10px 20px; 
 }
+
+nav a:hover {
+    background-color: #555; 
+    border-radius: 5px; 
+}
+
+section{
+    border: solid #333 1px;
+    margin: 20px;
+}
+
+h1{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+section {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 10px;
+    color: #666;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 5px 0 0 0;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+p {
+    font-size: 12px;
+    color: #999;
+    text-align: left;
+}
+
+
 footer {
     background-color: #333;
     color: #fff;

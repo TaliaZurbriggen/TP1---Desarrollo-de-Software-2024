@@ -8,10 +8,13 @@ body {
 
 h1{
     font-size: 30px;
+    
+
 }
 
 h2{
     font-size: 20px;
+    
 }
 nav {
     padding: 10px; 
@@ -47,7 +50,7 @@ nav a:hover {
 section {
     padding: 30px;
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 0 auto;
     border: solid #333 1px;
 }
 
@@ -55,7 +58,7 @@ article {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .text {
@@ -67,7 +70,7 @@ article {
     max-width: 200px;
     border-radius: 10px;
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 30px;
     
 }
 
